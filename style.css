@@ -1,0 +1,27 @@
+body{
+  background-color: #d3d3d3;
+}
+.bodyContainer{
+  background-color: white;
+  margin: 0 auto;
+  width: 75%;
+  height: 90vh;
+  border-radius: 10px;
+  border:1px solid #000000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.pageFooter{
+  height: 10%;
+  padding: 5%;
+  text-align: center;
+  background-color: #0B3936;
+  border-radius: 10px;
+}
+
+.footerLinks {
+  margin: 0 auto;
+}
+.footerImages img{
+  width: 50px;
+  height: 50px;
+}
