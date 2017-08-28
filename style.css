@@ -1,27 +1,46 @@
-body{
-  background-color: #d3d3d3;
-}
-.bodyContainer{
-  background-color: white;
-  margin: 0 auto;
-  width: 75%;
-  height: 90vh;
-  border-radius: 10px;
-  border:1px solid #000000;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-.pageFooter{
-  height: 10%;
-  padding: 5%;
-  text-align: center;
-  background-color: #0B3936;
-  border-radius: 10px;
-}
 
-.footerLinks {
-  margin: 0 auto;
+.home-page{
+  border:1px solid #000000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
-.footerImages img{
-  width: 50px;
-  height: 50px;
+.my-info{
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-picture{
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+}
+.my-picture img{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}.my-picture:hover{
+  /*filter: invert(100%);*/
+  animation-name: invertcolors;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}@keyframes invertcolors {
+  0% {filter: invert(0%);}
+  50%{filter: invert(100%);}
+  100%{filter: invert(0%);}
+
+}
+.my-details{
+  vertical-align: middle;
+  /*padding: 15px;*/
+  display: inline-block;
+}.my-name{
+  font-size: 30px;
+  color: black;
+  font-family: "Merriweather";
+}.my-title{
+  font-size: 22px;
+  color: grey;
+  font-family: "Raleway";
+}
+.about-me{
+  font-size: 18px;
 }
